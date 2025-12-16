@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "PolarionMCP-Demo": {
+      "url": "http://dev.polarion.atoms.tech:8080/sse",
+      "type": "http"
+    }
+  },
+  "inputs": []
+}

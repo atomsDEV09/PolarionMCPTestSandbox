@@ -1,0 +1,14 @@
+{
+  "name": "mcp-copilot-sandbox",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["GitHub.copilot", "github.copilot-chat"],
+      "settings": {
+        "github.copilot.enable": true,
+        "github.copilot.telemetryEnabled": false
+      }
+    }
+  }
+}
