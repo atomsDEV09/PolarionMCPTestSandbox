@@ -1,6 +1,7 @@
 {
   "name": "mcp-copilot-sandbox",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "remoteEnv": { "ATOMS_API_KEY": "atoms-sk-YOUR-DEMO-KEY" },
   "features": {},
   "customizations": {
     "vscode": {
