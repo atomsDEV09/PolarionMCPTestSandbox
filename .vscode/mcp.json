@@ -1,9 +1,10 @@
 {
   "servers": {
-    "PolarionMCP-Demo": {
-      "url": "https://dev.polarion.atoms.tech/sse",
-      "type": "http"
+    "polarion-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@atoms-tech/polarion-mcp@latest"],
+      "env": { "ATOMS_API_KEY": "${env:ATOMS_API_KEY}" }
     }
-  },
-  "inputs": []
+  }
 }

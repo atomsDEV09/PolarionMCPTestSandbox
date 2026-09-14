@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@atoms-tech/polarion-mcp": "^0.1.3"
+  }
+}
